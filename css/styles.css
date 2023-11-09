@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/play');
+:root{
+    --beauty-primary-dark:#011C44;
+    --beauty-primary-light:#2B7FFF;
+    --beauty-background:#FFF;
+}
+body{
+    color: var(--beauty-primary-dark);
+}
+.link {
+    color:var(--beauty-primary-dark);;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link:hover{
+    color: var(--beauty-primary-light);
+    font-weight: 700;
+}
+
+.primary-button{
+    padding: 16px 32px;
+    border-radius: 32px;
+    border: 2px solid var(--beauty-primary-light);
+    background: var(--beauty-primary-light);
+    color: var(--beauty-background);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.primary-button:hover {
+    border-radius: 32px;
+    background-color: var(--beauty-background);
+    color: var(--beauty-primary-dark);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-title {
+    color: var(--beauty-primary-light);
+    font-family: Play;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114px;
+    text-transform: capitalize;
+}
+.section-title{
+    font-family: Play;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.accente{
+    color: var(--beauty-primary-light);
+}
